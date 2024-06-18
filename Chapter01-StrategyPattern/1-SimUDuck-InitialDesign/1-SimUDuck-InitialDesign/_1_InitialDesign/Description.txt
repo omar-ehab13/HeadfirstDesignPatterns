@@ -1,0 +1,5 @@
+﻿Joe make SimUDuck game. The game can show a large variety of duck species swimming and quacking sounds.
+
+When Joe added Fly method to the ducks, He failed to notice that not all subclasses of Duck should fly.
+
+So this design require to modify in some subclasses behavior to remove this behavior from this subclass!
