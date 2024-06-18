@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuck", "1-SimUDuck-InitialDesign\SimUDuck.csproj", "{D92EF5B0-49EC-48F8-AE62-F02BA3AF6E65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuck", "SimUDuck.csproj", "{7E1A529A-13EE-4F1C-8987-B492774B6DFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D92EF5B0-49EC-48F8-AE62-F02BA3AF6E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D92EF5B0-49EC-48F8-AE62-F02BA3AF6E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D92EF5B0-49EC-48F8-AE62-F02BA3AF6E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D92EF5B0-49EC-48F8-AE62-F02BA3AF6E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E1A529A-13EE-4F1C-8987-B492774B6DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1A529A-13EE-4F1C-8987-B492774B6DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1A529A-13EE-4F1C-8987-B492774B6DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1A529A-13EE-4F1C-8987-B492774B6DFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {88461522-B003-48A3-83C9-BB236DC3DDD3}
+		SolutionGuid = {11D3746F-193C-403A-B563-124C2E3AC3E3}
 	EndGlobalSection
 EndGlobal
