@@ -1,0 +1,5 @@
+﻿## What other factors might change that will impact this design?
+	1- Price changes for condiment will force us to alter existing code.
+	2- New condiments will force us to add new methods and alter the cost method in the superclass.
+	3- We may have new beverages. For some of these beverages (Ice Tea), the condiments may not be appropriate, Yet the Tea subclass will still inherit methods like HasWhip().
+	4- What if a customer wants a double mocha?
