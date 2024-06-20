@@ -1,5 +1,5 @@
-﻿using PizzaRestaurant._2_FactoryMethodPattern;
-using PizzaRestaurant._2_FactoryMethodPattern.Pizzas;
+﻿using PizzaRestaurant._3_AbstractFactoryMethod;
+using PizzaRestaurant._3_AbstractFactoryMethod.Pizzas;
 
 namespace PizzaRestaurant
 {
@@ -8,15 +8,9 @@ namespace PizzaRestaurant
         static void Main(string[] args)
         {
             PizzaStore nyStore = new NYPizzaStore();
-            PizzaStore chicagoStore = new ChicagoPizzaStore();
 
             Pizza? pizza = nyStore.OrderPizza("cheese");
             Console.WriteLine("Ehan ordered a " + pizza.Name);
-
-            Console.WriteLine("----------------------------------------------");
-
-            pizza = chicagoStore.OrderPizza("cheese");
-            Console.WriteLine("Joel ordered a " + pizza.Name);
         }
     }
 }
